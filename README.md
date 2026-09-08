@@ -29,8 +29,8 @@ Sigue estos pasos en terminales independientes para levantar la solución:
    cd it-tasks-node-back
 
 2. Instala las dependencias:
-    Bash
-    npm install
+   ```bash
+   npm install
 
 3. Ejecuta las migraciones de base de datos e inicializa el archivo SQLite:
     ```bash
