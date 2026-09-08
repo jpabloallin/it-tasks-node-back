@@ -22,7 +22,7 @@ Aplicación web Full-Stack para la administración, asignación y seguimiento de
 
 Sigue estos pasos en terminales independientes para levantar la solución:
 
-### 1. Servidor Backend (`it-tasks-node-back`)
+### a. Servidor Backend (`it-tasks-node-back`)
 
 1. Ingresa a la carpeta del backend:
    ```bash
@@ -46,7 +46,7 @@ Sigue estos pasos en terminales independientes para levantar la solución:
 
 6. El backend quedará escuchando en http://localhost:3000.
 
-### 2. Servidor Frontend (`it-tasks-angular-front`)
+### b. Servidor Frontend (`it-tasks-angular-front`)
 
 1. Abre una nueva terminal e ingresa a la carpeta del frontend:
     ```bash
@@ -62,7 +62,7 @@ Sigue estos pasos en terminales independientes para levantar la solución:
 
 4. Abre tu navegador web en:http://localhost:4200
 
-## 3. Documentación de Endpoints (API REST)
+## c. Documentación de Endpoints (API REST)
 
 | Método | Endpoint | Descripción | Body (JSON) | Respuesta Exitosa |
 | :---: | :--- | :--- | :--- | :--- |
