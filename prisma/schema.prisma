@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Entidad: Técnico TI
+model Technician {
+  id        Int       @id @default(autoincrement())
+  fullName  String
+  requests  Request[] 
+}
+
+// Entidad: Tipo de Servicio
+model ServiceType {
+  id          Int       @id @default(autoincrement())
+  name        String    
+  description String?
+  requests    Request[] 
+}
+
+// Entidad principal: Solicitud
+model Request {
+  id            Int      @id @default(autoincrement())
+  description   String
+  status        String   @default("PENDIENTE") 
+  createdAt     DateTime @default(now())
+  
+  technicianId  Int
+  technician    Technician @relation(fields: [technicianId], references: [id])
+  
+  serviceTypeId Int
+  serviceType   ServiceType @relation(fields: [serviceTypeId], references: [id])
+}
