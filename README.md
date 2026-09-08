@@ -60,7 +60,7 @@ Sigue estos pasos en terminales independientes para levantar la solución:
     ```bash
     npx ng serve
 
-4. Abre tu navegador web en:http://localhost:4200
+4. Abre tu navegador web en:[http://localhost:3000]
 
 ## c. Documentación de Endpoints (API REST)
 
