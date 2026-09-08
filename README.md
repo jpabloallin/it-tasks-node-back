@@ -2,6 +2,10 @@
 
 Aplicación web Full-Stack para la administración, asignación y seguimiento de solicitudes de soporte técnico y mantenimiento de infraestructura TI.
 
+## 🎬 Demostración de la Aplicación
+
+![Demostración CRUD](assets/task-fullstack.gif)
+
 ## 🛠️ Stack Tecnológico
 
 *   **Backend:** Node.js (v24+), Express.js, Prisma ORM (v6).
