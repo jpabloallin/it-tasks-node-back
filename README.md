@@ -4,7 +4,7 @@ Aplicación web Full-Stack para la administración, asignación y seguimiento de
 
 ## 🎬 Demostración de la Aplicación
 
-![Demostración CRUD](<img width="1693" height="938" alt="task-fullstack" src="https://github.com/user-attachments/assets/79023410-f7b1-4d23-934d-59f1a2084fdc" />)
+![Demostración CRUD](./src/assets/task-fullstack.gif)
 
 ## 🛠️ Stack Tecnológico
 
